@@ -1,0 +1,16 @@
+div.container {
+    width: 65% !important;
+    height: 100% !important;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1rem;
+    background-color: silver;
+    box-shadow: 0 0 8px 2px lightgray;
+}
+
+h3 {
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}

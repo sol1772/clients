@@ -1,0 +1,76 @@
+div.container {
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1rem;
+    text-align: center;
+    background-color: silver;
+    box-shadow: 0 0 8px 2px lightgray;
+}
+
+h3 {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+form[id=reg_form], [id=edit_form] {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+span[class=input-group-text] {
+    width: 7rem;
+}
+
+button {
+    width: 7rem;
+}
+
+.btn-outline-info:hover {
+    color: #fff !important;
+    border-radius: 0.5rem;
+}
+
+p[id=error] {
+    color: red;
+}
+
+[id=phoneNum] {
+    border: none;
+}
+
+[id=delPhone] {
+    width: 2rem;
+}
+
+button:not([id=addPhone]):not([id=delPhone]):not([id=btn_search]) {
+    width: 7rem;
+}
+
+.btn-outline-info:hover {
+    color: #fff !important;
+    border-radius: 0.5rem;
+}
+
+p[id=error] {
+    color: red;
+}
+
+td {
+    text-align: left;
+}
+
+td[id=colDelPhone] {
+    text-align: right;
+}
+
+[id=colContactType] {
+    width: 7rem;
+    font-size: small;
+    border-right: solid 1px lightgrey;
+}
+
+[id=colPhoneNum] {
+    font-size: small;
+}
